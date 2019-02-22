@@ -1,0 +1,6 @@
+language: node_js
+sudo: required
+before_script:
+  - npm i -g serverless
+script:
+  - node -v && npm -v && yarn --version && serverless --version
