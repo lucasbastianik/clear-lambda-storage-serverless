@@ -1,3 +1,6 @@
+[![Travis](https://img.shields.io/travis/lucasbastianik/clear-lambda-storage-serverless.svg?style=flat-square)](https://travis-ci.org/lucasbastianik/clear-lambda-storage-serverless)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ⚡ Serverless Clear Lambda code storage
 =====================
 
@@ -36,4 +39,3 @@ functions:
     events:
       - schedule: cron(0 12 ? * SUN *) # Run every sunday at 12:00pm UTC
 ```
-
